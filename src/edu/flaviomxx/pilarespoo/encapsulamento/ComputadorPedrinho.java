@@ -1,4 +1,6 @@
-package edu.flaviomxx.pilarespoo.abstracao;
+package edu.flaviomxx.pilarespoo.encapsulamento;
+
+import edu.flaviomxx.pilarespoo.abstracao.MSNMessenger;
 
 public class ComputadorPedrinho {
     public static void main(String[] args) {
@@ -9,15 +11,5 @@ public class ComputadorPedrinho {
         msn.enviarMensagem();
         //msn.salvarHistoricoMensagem(); //Imagina se todos os usuários tiverem que fazer isso de forma manual?
         msn.receberMensagem();
-
-        FacebookMessage fcb = new FacebookMessage();
-        System.out.println("FACEBOOK");
-        fcb.enviarMensagem();
-        fcb.receberMensagem();
-
-        Telegram tel = new Telegram();
-        System.out.println("TELEGRAM");
-        tel.enviarMensagem();
-        tel.receberMensagem();
     }
 }

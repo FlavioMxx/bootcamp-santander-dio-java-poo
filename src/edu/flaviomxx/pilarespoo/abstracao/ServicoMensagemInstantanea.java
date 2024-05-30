@@ -1,4 +1,4 @@
-package edu.flaviomxx.pilarespoo.abstracao.heranca;
+package edu.flaviomxx.pilarespoo.abstracao;
 
 public class ServicoMensagemInstantanea { //Todas as classes que extends essa pai, terão os métodos e atribbutos pré definido aqui, evitando repetição de código.
     public void enviarMensagem() {
