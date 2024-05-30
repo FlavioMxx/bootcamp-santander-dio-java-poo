@@ -2,19 +2,20 @@ package edu.flaviomxx.pilarespoo.polimorfismo;
 
 public class ComputadorPedrinho {
     public static void main(String[] args) {
-        MSNMessenger msn = new MSNMessenger();
-        System.out.println("MSN");
-        msn.enviarMensagem();
-        msn.receberMensagem();
+        ServicoMensagemInstantanea em = null;
 
-        FacebookMessage fcb = new FacebookMessage();
-        System.out.println("FACEBOOK");
-        fcb.enviarMensagem();
-        fcb.receberMensagem();
+        String app = "TeLeGRam";
 
-        Telegram tel = new Telegram();
-        System.out.println("TELEGRAM");
-        tel.enviarMensagem();
-        tel.receberMensagem();
+        if(app.equalsIgnoreCase("msn")) {
+            em = new MSNMessenger();
+        } else if(app.equalsIgnoreCase("facebook")) {
+            em = new FacebookMessage();
+        } else if (app.equalsIgnoreCase("telegram")) {
+            em = new Telegram();
+
+        }
+
+        em.enviarMensagem();
+        em.receberMensagem();
     }
 }
