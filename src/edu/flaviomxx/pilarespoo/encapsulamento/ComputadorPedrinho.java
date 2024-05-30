@@ -1,7 +1,5 @@
 package edu.flaviomxx.pilarespoo.encapsulamento;
 
-import edu.flaviomxx.pilarespoo.abstracao.MSNMessenger;
-
 public class ComputadorPedrinho {
     public static void main(String[] args) {
         //abrindo MSG Messenger
