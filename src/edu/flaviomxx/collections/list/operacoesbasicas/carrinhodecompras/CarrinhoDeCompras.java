@@ -1,4 +1,4 @@
-package edu.flaviomxx.collections.list.carrinhodecompras;
+package edu.flaviomxx.collections.list.operacoesbasicas.carrinhodecompras;
 
 import java.util.ArrayList;
 import java.util.List;

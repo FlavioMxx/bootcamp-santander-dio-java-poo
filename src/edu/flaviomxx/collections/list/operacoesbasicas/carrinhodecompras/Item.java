@@ -1,4 +1,4 @@
-package edu.flaviomxx.collections.list.carrinhodecompras;
+package edu.flaviomxx.collections.list.operacoesbasicas.carrinhodecompras;
 
 public class Item {
     private String nome;
